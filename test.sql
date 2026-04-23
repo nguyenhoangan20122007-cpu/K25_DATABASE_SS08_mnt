@@ -70,7 +70,7 @@ UPDATE project
 SET end_date = '2024-12-31'
 WHERE end_date IS NULL;
 
-DELETE FROM projet 
+DELETE FROM project 
 WHERE start_date < '2024-02-01';
 -- 1
 SELECT emp_name, email,
